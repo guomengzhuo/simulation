@@ -201,5 +201,5 @@ if __name__ == '__main__':
     parser.add_argument("-s", "--n-state-s", default=2, type=int)
     parser.add_argument("-v", "--n-state-v", default=2, type=int)
     args = parser.parse_args()
-    # main(args)
+    main(args)
     plotMatrix(args, json_file='result_dict_sim.json')

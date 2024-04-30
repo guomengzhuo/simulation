@@ -145,7 +145,7 @@ def barPlot(data1, data2):
     # ax.set_ylabel('Prob.')
 
     ax.legend(loc='upper right', fontsize=15, ncol=2)
-    plt.savefig('pi_pred_true.pdf', format='pdf', dpi=300)
+    plt.savefig('fig/pi_pred_true.pdf', format='pdf', dpi=300)
     plt.show()
 
 def tranMat(data):
@@ -166,7 +166,7 @@ def tranMat(data):
     cbar.ax.tick_params(labelsize=18)
     cbar.set_label('True Probability', fontdict={"size": 18})
     fig.tight_layout()
-    plt.savefig('Q.pdf',format='pdf',dpi=300)
+    plt.savefig('fig/Q.pdf',format='pdf',dpi=300)
     plt.show()
 
     # Plot F mat
@@ -185,7 +185,7 @@ def tranMat(data):
     cbar.ax.tick_params(labelsize=18)
     cbar.set_label('True Probability', fontdict={"size": 18})
     fig.tight_layout()
-    plt.savefig('F.pdf', format='pdf', dpi=300)
+    plt.savefig('fig/F.pdf', format='pdf', dpi=300)
     plt.show()
 
     # Plot N mat
@@ -204,7 +204,7 @@ def tranMat(data):
     cbar.ax.tick_params(labelsize=18)
     cbar.set_label('True Probability', fontdict={"size": 18})
     fig.tight_layout()
-    plt.savefig('N.pdf', format='pdf', dpi=300)
+    plt.savefig('fig/N.pdf', format='pdf', dpi=300)
     plt.show()
 
 def plotMat2(data):
@@ -226,7 +226,7 @@ def plotMat2(data):
         cbar.ax.tick_params(labelsize=18)
         cbar.set_label('True Probability', fontdict={"size": 18})
         fig.tight_layout()
-        plt.savefig('M_'+str(i)+'.pdf', format='pdf', dpi=300)
+        plt.savefig('fig/M_'+str(i)+'.pdf', format='pdf', dpi=300)
         plt.show()
 
         # Plot H mat
@@ -245,7 +245,7 @@ def plotMat2(data):
         cbar.ax.tick_params(labelsize=18)
         cbar.set_label('True Probability', fontdict={"size": 18})
         fig.tight_layout()
-        plt.savefig('H_' + str(i) + '.pdf', format='pdf', dpi=300)
+        plt.savefig('fig/H_' + str(i) + '.pdf', format='pdf', dpi=300)
         plt.show()
 
 
@@ -268,7 +268,7 @@ def plotObser(data):
     cbar.ax.tick_params(labelsize=18)
     cbar.set_label('True Probability', fontdict={"size": 18})
     fig.tight_layout()
-    plt.savefig('C.pdf', format='pdf', dpi=300)
+    plt.savefig('fig/C.pdf', format='pdf', dpi=300)
     plt.show()
 
     # Plot E mat
@@ -287,7 +287,7 @@ def plotObser(data):
     cbar.ax.tick_params(labelsize=18)
     cbar.set_label('True Probability', fontdict={"size": 18})
     fig.tight_layout()
-    plt.savefig('E.pdf', format='pdf', dpi=300)
+    plt.savefig('fig/E.pdf', format='pdf', dpi=300)
     plt.show()
 
     # Plot D mat
@@ -306,7 +306,7 @@ def plotObser(data):
     cbar.ax.tick_params(labelsize=18)
     cbar.set_label('True Probability', fontdict={"size": 18})
     fig.tight_layout()
-    plt.savefig('D.pdf', format='pdf', dpi=300)
+    plt.savefig('fig/D.pdf', format='pdf', dpi=300)
     plt.show()
 
 def rgb_to_hex(r, g, b):
