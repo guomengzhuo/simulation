@@ -150,14 +150,14 @@ The following figure group visualizes the predicted and true initial distributio
 If the PDF figures are included in the repository, they can be linked as follows:
 
 ```markdown
-[Initial distribution](figure/pi_pred_true.pdf)
-[Goal-orientation transition matrix](figure/Q.pdf)
-[Initial engagement distribution](figure/F.pdf)
-[Initial purchase-intention distribution](figure/N.pdf)
-[Engagement transition matrix: Low state](figure/H_0.pdf)
-[Engagement transition matrix: High state](figure/H_1.pdf)
-[Purchase-intention transition matrix: Low state](figure/M_0.pdf)
-[Purchase-intention transition matrix: High state](figure/M_1.pdf)
+[Initial distribution](fig/pi_pred_true.pdf)
+[Goal-orientation transition matrix](fig/Q.pdf)
+[Initial engagement distribution](fig/F.pdf)
+[Initial purchase-intention distribution](fig/N.pdf)
+[Engagement transition matrix: Low state](fig/H_0.pdf)
+[Engagement transition matrix: High state](fig/H_1.pdf)
+[Purchase-intention transition matrix: Low state](fig/M_0.pdf)
+[Purchase-intention transition matrix: High state](fig/M_1.pdf)
 ```
 
 ### Observation-Generating Probabilities
