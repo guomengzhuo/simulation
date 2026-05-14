@@ -147,18 +147,6 @@ The following figure group visualizes the predicted and true initial distributio
 | Figure G | Probabilities of $M_{\text{Low},u'o'}=P(v_j^t=o'\mid s_j^t=u',v_j^{t-1}=\text{Low})$ | `fig/M_0.pdf` |
 | Figure H | Probabilities of $M_{\text{High},u'o'}=P(v_j^t=o'\mid s_j^t=u',v_j^{t-1}=\text{High})$ | `fig/M_1.pdf` |
 
-If the PDF figures are included in the repository, they can be linked as follows:
-
-```markdown
-[Initial distribution](fig/pi_pred_true.pdf)
-[Goal-orientation transition matrix](fig/Q.pdf)
-[Initial engagement distribution](fig/F.pdf)
-[Initial purchase-intention distribution](fig/N.pdf)
-[Engagement transition matrix: Low state](fig/H_0.pdf)
-[Engagement transition matrix: High state](fig/H_1.pdf)
-[Purchase-intention transition matrix: Low state](fig/M_0.pdf)
-[Purchase-intention transition matrix: High state](fig/M_1.pdf)
-```
 
 ### Observation-Generating Probabilities
 
@@ -170,13 +158,6 @@ The following figure group visualizes the observation-generating probabilities.
 | Figure B | Probabilities of $E_{ua}=P(a_j^t=a\mid s_j^t=u)$ | `fig/E.pdf` |
 | Figure C | Probabilities of $D_{op}=P(p_j^t=p\mid v_j^t=o)$ | `fig/D.pdf` |
 
-If the PDF figures are included in the repository, they can be linked as follows:
-
-```markdown
-[Game-preference observation probability](fig/C.pdf)
-[Activity observation probability](fig/E.pdf)
-[Purchase observation probability](fig/D.pdf)
-```
 
 ## Summary
 
