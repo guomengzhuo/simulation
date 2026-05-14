@@ -42,7 +42,7 @@ The synthetic data generating process uses the following predefined probabilitie
 In the simulation, all latent states and observations are binary:
 
 $$
-k,u,o,k',u',o',g,a,p \in \{1,2\}.
+k,u,o,k',u',o',g,a,p \in {1,2}.
 $$
 
 The process also requires the number of samples $N$ and the length of each sequence $T$.
